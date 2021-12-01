@@ -14,8 +14,8 @@ const cardImages = [
 function App() {
   const [cards, setCards] = useState([])
   const [turns, setTurns] = useState(0)
-  let [choiceOne, setChoiceOne] = useState(null)
-  let [choiceTwo, setChoiceTwo] = useState(null)
+  const [choiceOne, setChoiceOne] = useState(null)
+  const [choiceTwo, setChoiceTwo] = useState(null)
 
 
   // shuffle cards
@@ -49,7 +49,7 @@ function App() {
         resetTurn()
       } else {
         console.log("FUCK YOU")
-        resetTurn()
+        setTimeout(() => resetTurn(), 1000)
       }
     }
   }, [choiceOne, choiceTwo])
@@ -63,19 +63,19 @@ function App() {
     setTurns(prevTurns => prevTurns + 1)
   }
 
-  
-
   return (
     <div className="App">
       <h1>Medieval Memory</h1>
       <button onClick={shuffleCards}>New Game</button>
+
       <div className="card-grid">
         {cards.map(card => (
           <SingleCard 
-          key={card.id} 
-          card={card}
-          handleChoice={handleChoice}
-        />
+            key={card.id} 
+            card={card}
+            handleChoice={handleChoice}
+            flipped={card === choiceOne || card === choiceTwo || card.matched}
+          />
         ))}
       </div>
     </div>
