@@ -9,12 +9,25 @@
     border-radius: 6px;
 }
 
-/* flip card using transform */
+/* flip card using transform - front styling */
 .card .front {
     transform: rotateY(90deg);
+    transition: all ease-in 0.25s;
     position: absolute;
 }
 
 .flipped .front {
     transform: rotateY(0deg);
+    transition-delay: 0.25s;
+}
+
+/* flip card using transform - back styling */
+.card .back {
+    transition: all ease-in 0.25s;
+    transition-delay: 0.25s;
+}
+
+.flipped .back {
+    transform: rotateY(90deg);
+    transition-delay: 0s;
 }
