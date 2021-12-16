@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/medieval-memory/static/css/main.6605f780.chunk.css",
+    "main.js": "/medieval-memory/static/js/main.dac39662.chunk.js",
+    "main.js.map": "/medieval-memory/static/js/main.dac39662.chunk.js.map",
+    "runtime-main.js": "/medieval-memory/static/js/runtime-main.9faf58a7.js",
+    "runtime-main.js.map": "/medieval-memory/static/js/runtime-main.9faf58a7.js.map",
+    "static/js/2.4bd328cf.chunk.js": "/medieval-memory/static/js/2.4bd328cf.chunk.js",
+    "static/js/2.4bd328cf.chunk.js.map": "/medieval-memory/static/js/2.4bd328cf.chunk.js.map",
+    "index.html": "/medieval-memory/index.html",
+    "static/css/main.6605f780.chunk.css.map": "/medieval-memory/static/css/main.6605f780.chunk.css.map",
+    "static/js/2.4bd328cf.chunk.js.LICENSE.txt": "/medieval-memory/static/js/2.4bd328cf.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9faf58a7.js",
+    "static/js/2.4bd328cf.chunk.js",
+    "static/css/main.6605f780.chunk.css",
+    "static/js/main.dac39662.chunk.js"
+  ]
+}
