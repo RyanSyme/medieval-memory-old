@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/medieval-memory/static/css/main.6605f780.chunk.css",
-    "main.js": "/medieval-memory/static/js/main.b1909b0c.chunk.js",
-    "main.js.map": "/medieval-memory/static/js/main.b1909b0c.chunk.js.map",
-    "runtime-main.js": "/medieval-memory/static/js/runtime-main.11f5fee7.js",
-    "runtime-main.js.map": "/medieval-memory/static/js/runtime-main.11f5fee7.js.map",
-    "static/js/2.02ee52f3.chunk.js": "/medieval-memory/static/js/2.02ee52f3.chunk.js",
-    "static/js/2.02ee52f3.chunk.js.map": "/medieval-memory/static/js/2.02ee52f3.chunk.js.map",
-    "index.html": "/medieval-memory/index.html",
-    "static/css/main.6605f780.chunk.css.map": "/medieval-memory/static/css/main.6605f780.chunk.css.map",
-    "static/js/2.02ee52f3.chunk.js.LICENSE.txt": "/medieval-memory/static/js/2.02ee52f3.chunk.js.LICENSE.txt"
+    "main.css": "/medieval-memory/medieval-memory/static/css/main.6605f780.chunk.css",
+    "main.js": "/medieval-memory/medieval-memory/static/js/main.b1909b0c.chunk.js",
+    "main.js.map": "/medieval-memory/medieval-memory/static/js/main.b1909b0c.chunk.js.map",
+    "runtime-main.js": "/medieval-memory/medieval-memory/static/js/runtime-main.ab866625.js",
+    "runtime-main.js.map": "/medieval-memory/medieval-memory/static/js/runtime-main.ab866625.js.map",
+    "static/js/2.02ee52f3.chunk.js": "/medieval-memory/medieval-memory/static/js/2.02ee52f3.chunk.js",
+    "static/js/2.02ee52f3.chunk.js.map": "/medieval-memory/medieval-memory/static/js/2.02ee52f3.chunk.js.map",
+    "index.html": "/medieval-memory/medieval-memory/index.html",
+    "static/css/main.6605f780.chunk.css.map": "/medieval-memory/medieval-memory/static/css/main.6605f780.chunk.css.map",
+    "static/js/2.02ee52f3.chunk.js.LICENSE.txt": "/medieval-memory/medieval-memory/static/js/2.02ee52f3.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.11f5fee7.js",
+    "static/js/runtime-main.ab866625.js",
     "static/js/2.02ee52f3.chunk.js",
     "static/css/main.6605f780.chunk.css",
     "static/js/main.b1909b0c.chunk.js"
